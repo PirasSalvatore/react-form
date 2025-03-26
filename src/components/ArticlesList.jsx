@@ -2,7 +2,7 @@ import Article from "./Article"
 
 
 
-export default function Articles({ articles }) {
+export default function Articles({ articles, settArticles }) {
 
     return (
         <div className="container">
